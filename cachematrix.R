@@ -1,7 +1,16 @@
 ##As matrix inversion is usually a costly computation, the idea is cache the inverse of matrix with the aim of save time or 
 ##memory. 
 
-## This function creates a special "matrix" object that can cache its inverse.
+## This function creates a special "matrix" object that can cache its inverse, which is
+##really a list containing a function to
+
+1.  set the value of the vector
+2.  get the value of the vector
+3.  set the value of the inverse
+4.  get the value of the inverse
+
+<!-- -->
+
 
 makeCacheMatrix <- function(x = matrix()) {
       inv <- NULL
