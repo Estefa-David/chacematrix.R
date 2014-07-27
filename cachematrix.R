@@ -4,12 +4,10 @@
 ## This function creates a special "matrix" object that can cache its inverse, which is
 ##really a list containing a function to
 
-1.  set the value of the vector
-2.  get the value of the vector
-3.  set the value of the inverse
-4.  get the value of the inverse
-
-<!-- -->
+#1.  set the value of the vector
+#2.  get the value of the vector
+#3.  set the value of the inverse
+#4.  get the value of the inverse
 
 
 makeCacheMatrix <- function(x = matrix()) {
